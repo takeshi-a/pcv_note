@@ -23,12 +23,10 @@ PCVではnumpy, pylabなどのパッケージをimportする際、\*（アスタ
 ```python
 # PCVテキスト内の一般的なimport
 
-from PIL import Image
 from pylab import *
 from numpy import *
 
 # 演習ノート内の通常のimport方法
-from PIL import Image
 import numpy as numpy
 import matplotlib.pyplot as plt
 ```
